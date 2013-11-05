@@ -1,0 +1,51 @@
+<! DOCTYPE html>
+<html>
+	<head>
+		<title>Prova PouchDB</title>
+		<script src="http://download.pouchdb.com/pouchdb-nightly.min.js"></script>
+		<!-- <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+		<script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+		<script src="http://192.168.0.5:5984/_utils/script/jquery.couch.js"></script>
+
+		<script src="http://192.168.0.5:5984/_utils/script/json2.js"></script>
+		<script src="http://192.168.0.5:5984/_utils/script/sha1.js"></script>
+		<script src="http://192.168.0.5:5984/_utils/script/jquery.js?1.4.2"></script>
+		<script src="http://192.168.0.5:5984/_utils/script/jquery.couch.js?0.11.0"></script>
+		<script src="http://192.168.0.5:5984/_utils/script/jquery.dialog.js?0.11.0"></script>
+		-->
+		<script src="http://192.168.0.2:5984/_utils/script/json2.js"></script>
+		<script src="http://192.168.0.2:5984/_utils/script/sha1.js"></script>
+		<script src="http://192.168.0.2:5984/_utils/script/jquery.js"></script>
+		<script src="http://192.168.0.2:5984/_utils/script/jquery.couch.js"></script>
+		<script src="http://192.168.0.2:5984/_utils/script/jquery.dialog.js"></script>
+		
+		<script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false"></script>
+		
+		<link rel="stylesheet" href="index.css">
+	</head>
+	<body>
+		<div id="content">
+			<div id="title" class="box">
+				<p><b>Prova di PouchDB</b></p>
+				<p><input style="border-radius: 10px;" type="button" name="carica" value="carica"></p>
+			</div>
+			<div style="height: 238px;">
+				<div id="properties" class="box">
+					<p><b>User ID</b>: <i><span id="userId"></span></i></p>
+					<p><b>User E-Mail</b>: <i><span id="userMail"></span></i></p>
+					<p><b>Messaggio</b>: <i><span id="userMsg"></span></i></p>
+					<p><b>Posizione</b>:</p>
+					<ul>
+						<li><b>Latitudine</b>: <i><span id="lat"></span> Nord</i></li>
+						<li><b>Longitudine</b>: <i><span id="lon"></span> Est</i></li>
+					</ul>
+				</div>
+				<div id="attachment" class="box">
+					<img id="foto" src="">
+				</div>
+			</div>
+			<div id="map" class="box"></div>
+		</div>
+		<script src="index.js"></script>
+	</body>
+</html>

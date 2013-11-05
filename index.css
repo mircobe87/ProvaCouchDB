@@ -1,0 +1,70 @@
+/* Modifica ScrollBar */
+	::-webkit-scrollbar {
+		height: 6px;
+		width: 6px;
+	}
+	/* Handle */
+	::-webkit-scrollbar-thumb {
+		background-color: rgb(195,195,195);
+		border-top: 1px solid rgb(175,175,175);
+		border-right: 1px solid rgb(181,181,181);
+		border-bottom: 1px solid rgb(182,182,182); 
+		border-left: 1px solid rgb(150,150,150);
+		border-radius: 3px;
+	}
+	
+	/* Track */
+	::-webkit-scrollbar-track {
+		background-color: rgba(245,245,245,0.3);
+		border-top: 0px solid rgb(210,210,210);
+		border-right: 0px solid rgb(227,227,227);
+		border-bottom: 0px solid rgb(227,227,227); 
+		border-left: 0px solid rgb(210,210,210);
+	}
+/* fine scrollbar */
+
+body {
+	background-color: rgb(230,230,230);
+}
+
+#title {
+	color: rgb(180,180,180);
+	text-shadow: 1px 1px 2px rgba(0,0,0,0.9);
+	text-align: center;
+}
+
+#properties {
+	float: left;
+	width: 400px;
+	height: 220px;
+	color: rgb(200,200,200);
+	text-shadow: 1px 1px 2px rgba(0,0,0,0.9);
+}
+#attachment {
+	float: left;
+	width: 400px;
+	height: 228px;
+	padding: 0px;
+}
+#content {
+	margin: 0px auto 0px auto;
+	padding: 0px;
+	width: 828px;
+}
+#map {
+	height: 320px;
+}
+
+.box {
+	margin: 4px;
+	padding: 4px;
+	border: 1px solid rgb(230,230,230);
+	border-radius: 5px;
+	box-shadow: 0px 2px 6px -2px rgba(0,0,0,0.8);
+	background: rgb(80,80,80);
+	overflow: auto;
+}
+
+.box b {
+	color: rgba(255,255,255,0.9);
+}
